@@ -11,8 +11,8 @@ var lastaction;
 var pi = 3.14159;
 var moveinterval = 2; // 2 second movement interval
 var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
-var host = data["DanLP6.aternos.me:30555"];
-var username = data["DanLP6-bot6"]
+var host = data["ip"];
+var username = data["name"]
 var nightskip = data["auto-night-skip"]
 var bot = mineflayer.createBot({
   host: host,
